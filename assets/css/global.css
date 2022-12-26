@@ -1,0 +1,63 @@
+* {
+    font-family: 'Outfit', 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--clr-background-body);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 50px;
+}
+
+.header .title {
+    color: #131313;
+}
+
+.header .pokeball {
+    width: 25px;
+    height: 25px;
+}
+
+.content {
+    width: 200vh;
+    height: 100vh;
+    padding: 1rem;
+    background-color: var(--clr-background-content)
+}
+
+/* .card {
+    background-color: blueviolet;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 200px;
+    height: 300px;
+    border: solid 2px rgb(156, 125, 23);
+    border-radius: 1rem;
+    display: none;
+} */
+
+.footer {
+    color: #131313;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: .3rem;
+    margin-bottom: 1rem;
+}
+
+.footer .instagram {
+    color: #131313;
+    text-decoration: none;
+}
